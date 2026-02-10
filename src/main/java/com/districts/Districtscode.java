@@ -5,6 +5,7 @@ public class Districtscode {
         Districts districts = new Districts();
         districts.setNo(1);
         districts.setName("Jammu");
+        System.out.println(districts.getNo()+":"+districts.getName());
         districts.setNo1(2);
         districts.setName1("Samba");
         districts.setNo2(3);

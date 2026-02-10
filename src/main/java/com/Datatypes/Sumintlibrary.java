@@ -1,6 +1,6 @@
 package com.Datatypes;
 
-public class INTlibraray {
+public class Sumintlibrary {
     public static void main(String[] args) {
         Sumint sumint = new Sumint();
         sumint.num1 = 12;

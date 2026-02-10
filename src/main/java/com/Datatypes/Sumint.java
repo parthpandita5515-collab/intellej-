@@ -1,6 +1,6 @@
 package com.Datatypes;
 
-public class Praint {
+public class Sumint {
     int num1;
     int num2;
     int num3;

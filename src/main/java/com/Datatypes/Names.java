@@ -1,6 +1,6 @@
 package com.Datatypes;
 
-public class Namestring {
+public class Names {
     public  String name;
     public  String detail;
 
