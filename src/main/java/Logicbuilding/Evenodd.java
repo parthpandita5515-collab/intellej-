@@ -1,18 +1,18 @@
 package Logicbuilding;
 
 public class Evenodd {
-    public int no;
+    public float no;
 
-    public int getNo() {
+    public float getNo() {
         return no;
     }
 
-    public void setNo(int no) {
+    public void setNo(float no) {
         this.no = no;
     }
 
     public void evenodd () {
-        System.out.println(no%2);
+        System.out.println(no/2);
         if (no%2==0) {
             System.out.println("even");
         } else {
