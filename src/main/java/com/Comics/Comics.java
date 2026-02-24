@@ -1,4 +1,4 @@
-package Comics;
+package com.Comics;
 
 public class Comics {
     public String Comic;

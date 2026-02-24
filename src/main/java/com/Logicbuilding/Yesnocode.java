@@ -1,4 +1,4 @@
-package Logicbuilding;
+package com.Logicbuilding;
 
 
 import java.util.Scanner;

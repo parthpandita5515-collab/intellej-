@@ -16,6 +16,7 @@ public class AtmOperation {
             atm.setViewbalance(Double.valueOf(0));
         }
         atm.setViewbalance(atm.getViewbalance() + amount);
+        viewBalance();
     }
 
     public void withdraw(Double amount) {
@@ -23,11 +24,13 @@ public class AtmOperation {
             atm.setViewbalance(Double.valueOf(0));
         }
         atm.setViewbalance(atm.getViewbalance() - amount);
+        viewBalance();
     }
     public void exit(Double amount) {
         if (atm.getViewbalance() == null) {
             atm.setViewbalance(Double.valueOf(0));
         }
         atm.setViewbalance(atm.getViewbalance());
+        viewBalance();
     }
 }

@@ -1,4 +1,4 @@
-package Logicbuilding;
+package com.Logicbuilding;
 
 public class Evenodd {
     public float no;

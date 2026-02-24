@@ -1,4 +1,4 @@
-package Comics;
+package com.Comics;
 
 public class Comicslibary {
     public static void main(String[] args) {

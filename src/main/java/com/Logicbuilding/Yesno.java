@@ -1,4 +1,4 @@
-package Logicbuilding;
+package com.Logicbuilding;
 
 public class Yesno {
     public String name;

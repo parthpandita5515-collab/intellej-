@@ -1,4 +1,4 @@
-package Logicbuilding;
+package com.Logicbuilding;
 
 public class Evenoddcode {
     public static void main(String[] args) {

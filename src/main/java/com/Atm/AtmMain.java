@@ -4,8 +4,9 @@ public class AtmMain {
     public static void main(String[] args) {
         AtmOperation atmoperation = new AtmOperation();
         Scanner sc = new Scanner(System.in);
+        int attempts = 0;
         String pin = "12345";
-        while (true) {
+        while (attempts < 4) {
             System.out.println("Enter The Pin:");
             String PinCode = sc.nextLine();
             if (PinCode.equals(pin)) {
@@ -34,7 +35,16 @@ public class AtmMain {
                     }
                 }
             } else {
-                System.out.println("Incorrect Pin,Please Try Again:(");
+                attempts++;
+                if (attempts == 1) {
+                    System.out.println("sazazaall;");
+                } else if (attempts == 2) {
+                    System.out.println("fcfcfcfcf");
+                }else if (attempts == 3) {
+                    System.out.println("xddxd");
+                }else if (attempts == 4) {
+                    System.out.println("azzaa");
+                }
             }
         }
     }
