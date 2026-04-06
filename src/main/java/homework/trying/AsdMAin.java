@@ -1,4 +1,4 @@
-package homework;
+package homework.trying;
 
 public class AsdMAin {
     public static void main(String[] args) {

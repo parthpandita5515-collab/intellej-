@@ -10,6 +10,7 @@ public class TestBase {
        WebDriverManager.chromedriver().setup();
        driver=new ChromeDriver();
        driver.get("https://sauce-demo.myshopify.com/");
+       driver.manage().window().maximize();
     }
 
     public void closeBrowser(){

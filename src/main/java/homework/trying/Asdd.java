@@ -1,4 +1,4 @@
-package homework;
+package homework.trying;
 
 public class Asdd {
     public String name;

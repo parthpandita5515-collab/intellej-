@@ -10,8 +10,9 @@ public class test {
         WebDriver driver = new ChromeDriver();
         WebDriverManager.chromedriver().setup();
         driver.get("https://www.facebook.com/");
-        driver.findElement(By.xpath("//input[@name='email']")).sendKeys("qweerrr@gmail.com");
-        driver.findElement(By.xpath("//input[@name='pass']")).sendKeys("qwert");
-        driver.findElement(By.xpath("//span//span[contains(text(),'Log in')]")).click();
+        driver.findElements(By.xpath("//a"));
+//        driver.findElement(By.xpath("//input[@name='email']")).sendKeys("qweerrr@gmail.com");
+//        driver.findElement(By.xpath("//input[@name='pass']")).sendKeys("qwert");
+//        driver.findElement(By.xpath("//span//span[contains(text(),'Log in')]")).click();
           }
 }
